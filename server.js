@@ -121,7 +121,8 @@ app.post('/api/posts/:id/reply', (req, res) => {
         (err) => {
             if (err) {
                 console.log(err.stack)
-                console.log("push your funny bob")
+                console.log("push your funnfffy bob")
+                console.log("push your funnfffdsafdfsdfy bob")
             }
         })
     res.status(202).send('Reply success')
